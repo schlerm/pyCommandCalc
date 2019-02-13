@@ -12,8 +12,8 @@ def divide(x, y):
 
 def calc():
     operator = str(input("Select an operation (+,-,*, or /)"))
-    num1 = int(input("Enter the first number"))
-    num2 = int(input("Enter the second number"))
+    num1 = float(input("Enter the first number"))
+    num2 = float(input("Enter the second number"))
     if operator == "+" :
         print(num1,"+",num2,"=",plus(num1, num2))
     elif operator == "-" :
