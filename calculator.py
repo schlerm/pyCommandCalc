@@ -23,11 +23,11 @@ def calc():
     elif operator == "/" :
         print(num1,"/",num2,"=",divide(num1, num2))
     else:
-        print("This ain't it chief.")
-    cont = str(input(print("Continue? y or n")))
+        return("This ain't it chief.")
+    cont = input("Continue? y or n")
     if cont == "y":
         calc()
+    else:
+        return("Bye")
 
 calc()
-
-#prints none for some reason
